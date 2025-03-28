@@ -36,7 +36,7 @@ export class MockService {
 
     private generateMockTransactions(): void {
         const transactionTypes: TransactionType[] = ['payout', 'spent', 'earned'];
-        const userIds = ['074092', '085123', '063957'];
+        const userIds = ['74092', '85123', '63957'];
 
         for (let i = 0; i < this.TOTAL_MOCKED_TRANSACTIONS; i++) {
             const randomType = transactionTypes[Math.floor(Math.random() * transactionTypes.length)];

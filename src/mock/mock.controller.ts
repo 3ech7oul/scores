@@ -3,7 +3,7 @@ import { MockService } from './mock.service';
 import { RateLimiterGuard } from './rate-limiter.guard';
 
 
-@Controller('transactions')
+@Controller('mock-transactions')
 @UseGuards(RateLimiterGuard)
 export class MockController {
     private readonly DEFAULT_LIMIT = 3;
