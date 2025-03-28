@@ -4,7 +4,7 @@
 To install all dependencies
 ` npm install  `
 
-To start app in dev mode
+To run app in dev mode
 ` npm run start:dev`
 
 To run tests
